@@ -1,0 +1,73 @@
+body {
+    background-color: red; /* Acepta valores de color como nombres de colores, valores hexadecimales, rgb, rgba, hsl, hsla */
+    color: black; /* Acepta valores de color como nombres de colores, valores hexadecimales, rgb, rgba, hsl, hsla */
+    text-align: center; /* Acepta valores: left, right, center, justify */
+    /* Otros atributos posibles:
+       - font-family: especifica la familia de fuentes (nombre de la fuente, lista de nombres de fuentes)
+       - font-size: especifica el tamaño de la fuente (px, em, rem, %, etc.)
+       - margin: especifica el margen alrededor del elemento (px, em, rem, %, auto, etc.)
+       - padding: especifica el relleno dentro del elemento (px, em, rem, %, etc.)
+       - line-height: especifica la altura de la línea (número, %, px, em, rem, etc.)
+       - background-image: especifica una imagen de fondo (url, none, linear-gradient, etc.)
+       - background-repeat: especifica si la imagen de fondo se repite (repeat, repeat-x, repeat-y, no-repeat, space, round)
+       - background-position: especifica la posición de la imagen de fondo (left, center, right, top, bottom, px, %, etc.)
+    */
+}
+
+h1 {
+    text-decoration: underline; /* Acepta valores: none, underline, overline, line-through, blink */
+    font-size: 3em; /* Acepta valores: tamaño en unidades (px, em, rem, %, etc.) */
+    /* Otros atributos posibles:
+       - font-family: especifica la familia de fuentes (nombre de la fuente, lista de nombres de fuentes)
+       - font-weight: especifica el grosor de la fuente (normal, bold, bolder, lighter, 100-900)
+       - color: especifica el color del texto (nombres de colores, valores hexadecimales, rgb, rgba, hsl, hsla)
+       - text-align: especifica la alineación del texto (left, right, center, justify)
+       - margin: especifica el margen alrededor del elemento (px, em, rem, %, auto, etc.)
+       - padding: especifica el relleno dentro del elemento (px, em, rem, %, etc.)
+    */
+}
+
+p {
+    color: black; /* Acepta valores de color como nombres de colores, valores hexadecimales, rgb, rgba, hsl, hsla */
+    /* Otros atributos posibles:
+       - font-family: especifica la familia de fuentes (nombre de la fuente, lista de nombres de fuentes)
+       - font-size: especifica el tamaño de la fuente (px, em, rem, %, etc.)
+       - text-align: especifica la alineación del texto (left, right, center, justify)
+       - line-height: especifica la altura de la línea (número, %, px, em, rem, etc.)
+       - margin: especifica el margen alrededor del elemento (px, em, rem, %, auto, etc.)
+       - padding: especifica el relleno dentro del elemento (px, em, rem, %, etc.)
+    */
+}
+
+b {
+    color: white; /* Acepta valores de color como nombres de colores, valores hexadecimales, rgb, rgba, hsl, hsla */
+    /* Otros atributos posibles:
+       - font-family: especifica la familia de fuentes (nombre de la fuente, lista de nombres de fuentes)
+       - font-size: especifica el tamaño de la fuente (px, em, rem, %, etc.)
+       - font-weight: especifica el grosor de la fuente (normal, bold, bolder, lighter, 100-900)
+       - text-decoration: especifica la decoración del texto (none, underline, overline, line-through, blink)
+    */
+}
+
+img {
+    width: 300px; /* Acepta valores en unidades (px, %, em, rem, etc.) */
+    height: 225px; /* Acepta valores en unidades (px, %, em, rem, etc.) */
+    /* Otros atributos posibles:
+       - border: especifica el borde de la imagen (valores de borde como width style color)
+       - margin: especifica el margen alrededor de la imagen (px, em, rem, %, auto, etc.)
+       - padding: especifica el relleno dentro de la imagen (px, em, rem, %, etc.)
+       - display: especifica cómo se muestra la imagen (block, inline, inline-block, etc.)
+       - object-fit: especifica cómo se ajusta la imagen dentro de su contenedor (fill, contain, cover, none, scale-down)
+    */
+}
+
+h3 em {
+    font-weight: bold; /* Acepta valores: normal, bold, bolder, lighter, o valores numéricos (100, 200, ..., 900) */
+    color: white; /* Acepta valores de color como nombres de colores, valores hexadecimales, rgb, rgba, hsl, hsla */
+    /* Otros atributos posibles:
+       - font-family: especifica la familia de fuentes (nombre de la fuente, lista de nombres de fuentes)
+       - font-size: especifica el tamaño de la fuente (px, em, rem, %, etc.)
+       - text-decoration: especifica la decoración del texto (none, underline, overline, line-through, blink)
+       - font-style: especifica el estilo de la fuente (normal, italic, oblique)
+    */
+}
